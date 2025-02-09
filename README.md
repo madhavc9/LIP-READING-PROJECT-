@@ -103,7 +103,9 @@ Ensure you have the following installed:
 - Enhance the accuracy using **transformer-based architectures**.
 <hr>
 
+<div align="center">
 ## Author : MADHAV
 
 Feel free to reach out for questions or contributions!
 Happy Coding ! 🚀
+</div>
