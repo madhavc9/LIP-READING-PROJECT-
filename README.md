@@ -10,26 +10,26 @@
 
 ## 📑 Table of Contents  
 <details>
-  <summary>▶️ Table of Contents</summary>
+  <summary>📜 Table of Contents</summary>
 
-- [▶️ Project Overview](#-project-overview)
-- [▶️ Features & Objectives](#-features--objectives)
-- [▶️ Technologies Used](#-technologies-used)
-- [▶️ Project Architecture](#-project-architecture)
-  - [▶️ Data Collection & Preprocessing](#data-collection--preprocessing)
-  - [▶️ Model Development](#model-development)
-  - [▶️ Training & Evaluation](#training--evaluation)
-  - [▶️ Web Application (Streamlit)](#web-application-streamlit)
-- [▶️ Essential Installation Software](#-essential-installation-software)
-- [▶️ Expected Output](#-expected-output)
-- [▶️ Challenges Faced](#-challenges-faced)
-- [▶️ Future Scope](#-future-scope)
-- [▶️ Author](#-author)
+- [📌 Project Overview](#-project-overview)
+- [🎯 Features & Objectives](#-features--objectives)
+- [🛠️ Technologies Used](#-technologies-used)
+- [🏗️ Project Architecture](#-project-architecture)
+  - [📊 Data Collection & Preprocessing](#-data-collection--preprocessing)
+  - [🧠 Model Development](#-model-development)
+  - [📈 Training & Evaluation](#-training--evaluation)
+  - [🌐 Web Application (Streamlit)](#-web-application-streamlit)
+- [⚙️ Essential Installation Software](#️-essential-installation-software)
+- [🔍 Expected Output](#-expected-output)
+- [⚠️ Challenges Faced](#-challenges-faced)
+- [🚀 Future Scope](#-future-scope)
+- [👨‍💻 Author](#-author)
 </details>
 <hr>
 
 <details>
-  <summary>▶️ Project Overview</summary>
+  <summary>📌 Project Overview</summary>
 
 The **Lip Reading Project** is an advanced AI-driven system designed to interpret spoken words solely from visual lip movements in video footage. It leverages deep learning models such as **Conv3D** for spatial feature extraction and **LSTM** for sequential analysis, enabling accurate prediction of words based on lip motion. The system processes both real-time and pre-recorded video inputs, making it a versatile tool for speech recognition without audio dependency.  
 
@@ -38,7 +38,7 @@ Built with **OpenCV** for video processing and **Streamlit** for an interactive 
 <hr>
 
 <details>
-  <summary>▶️ Features & Objectives</summary>
+  <summary>🎯 Features & Objectives</summary>
 
 - **🧠 Deep Learning Model**: Uses a combination of **3D Convolutional Neural Networks (Conv3D)** and **Long Short-Term Memory (LSTM)** networks for accurate lip movement detection.  
 - **🦻 Improved Accessibility**: Aids individuals with hearing impairments by providing an alternative mode of communication.  
@@ -49,7 +49,7 @@ Built with **OpenCV** for video processing and **Streamlit** for an interactive 
 <hr>
 
 <details>
-  <summary>▶️ Technologies Used</summary>
+  <summary>🛠️ Technologies Used</summary>
 
 - **Programming Language**: Python  
 - **Deep Learning Framework**: TensorFlow, Keras  
@@ -64,7 +64,7 @@ Built with **OpenCV** for video processing and **Streamlit** for an interactive 
 ## 🏗️ Project Architecture  
 
 <details>
-  <summary>▶️ Data Collection & Preprocessing</summary>
+  <summary>📊 Data Collection & Preprocessing</summary>
 
 - Downloaded video datasets with labeled speech.  
 - Extracted **frames from video** and converted them into grayscale images.  
@@ -73,7 +73,7 @@ Built with **OpenCV** for video processing and **Streamlit** for an interactive 
 </details>
 
 <details>
-  <summary>▶️ Model Development</summary>
+  <summary>🧠 Model Development</summary>
 
 - **Conv3D Layers**: Extract spatial and temporal features from video frames.  
 - **MaxPooling Layers**: Reduce dimensionality for computational efficiency.  
@@ -83,7 +83,7 @@ Built with **OpenCV** for video processing and **Streamlit** for an interactive 
 </details>
 
 <details>
-  <summary>▶️ Training & Evaluation</summary>
+  <summary>📈 Training & Evaluation</summary>
 
 - The model was trained on a dataset of lip movements and corresponding text transcripts.  
 - **Performance Metrics**: Accuracy, Precision, Recall, and WER (Word Error Rate).  
@@ -91,7 +91,7 @@ Built with **OpenCV** for video processing and **Streamlit** for an interactive 
 </details>
 
 <details>
-  <summary>▶️ Web Application (Streamlit)</summary>
+  <summary>🌐 Web Application (Streamlit)</summary>
 
 - Built an **interactive UI** where users can upload a video and receive real-time transcription.  
 - Used pre-trained models to predict text from uploaded videos.  
@@ -100,7 +100,7 @@ Built with **OpenCV** for video processing and **Streamlit** for an interactive 
 <hr>
 
 <details>
-  <summary>▶️ Essential Installation Software</summary>
+  <summary>⚙️ Essential Installation Software</summary>
 
 Ensure you have the following installed:  
 
@@ -117,7 +117,7 @@ Ensure you have the following installed:
 <hr>
 
 <details>
-  <summary>▶️ Expected Output</summary>
+  <summary>🔍 Expected Output</summary>
 
 - The model will display a **sequence of predicted words** corresponding to the lip movements.  
 - Accuracy will depend on **lighting conditions, speaker clarity, and dataset quality**.  
@@ -125,7 +125,7 @@ Ensure you have the following installed:
 <hr>
 
 <details>
-  <summary>▶️ Challenges Faced</summary>
+  <summary>⚠️ Challenges Faced</summary>
 
 - **📉 Dataset Limitations**: Lip-reading datasets are limited and require significant preprocessing.  
 - **💻 Computational Intensity**: Training Conv3D and LSTM models requires high GPU power.  
@@ -134,7 +134,7 @@ Ensure you have the following installed:
 <hr>
 
 <details>
-  <summary>▶️ Future Scope</summary>
+  <summary>🚀 Future Scope</summary>
 
 - Implement **real-time lip reading** for live video streams.  
 - Expand the dataset to support **multiple languages and accents**.  
@@ -144,7 +144,7 @@ Ensure you have the following installed:
 <hr>
 
 <details>
-  <summary>▶️ Author</summary>
+  <summary>👨‍💻 Author</summary>
 <div align="center">
   <p>💡 Developed by <strong>Madhav</strong></p>
   <p>📬 Feel free to reach out for questions or contributions!</p>
