@@ -8,9 +8,8 @@
 </div>
 <hr>
 
-## 📑 Table of Contents  
 <details>
-  <summary>📜 Table of Contents</summary>
+  <summary>📑 Table of Contents</summary>
 
 - [📌 Project Overview](#-project-overview)
 - [🎯 Features & Objectives](#-features--objectives)
@@ -59,7 +58,7 @@ Built with **OpenCV** for video processing and **Streamlit** for an interactive 
 
 ## 🏗️ Project Architecture  
 <details>
-  <summary>🏗️ Project Architecture</summary>
+  <summary>Click here to expand/collapse</summary>
 
   <details>
     <summary>📊 Data Collection & Preprocessing</summary>
@@ -147,11 +146,10 @@ Ensure you have the following installed:
 </details>
 <hr>
 
-<details>
-  <summary>👨‍💻 Author</summary>
+
 <div align="center">
   <p>💡 Developed by <strong>Madhav</strong></p>
   <p>📬 Feel free to reach out for questions or contributions!</p>
   <p>🚀 Happy Coding!</p>
 </div>
-</details>
+
