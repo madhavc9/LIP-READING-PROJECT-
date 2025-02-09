@@ -8,7 +8,6 @@
 </div>
 <hr>
 
-## 📑 Table of Contents  
 <details>
   <summary>📜 Table of Contents</summary>
 
@@ -143,11 +142,9 @@ Ensure you have the following installed:
 </details>
 <hr>
 
-<details>
-  <summary>👨‍💻 Author</summary>
 <div align="center">
   <p>💡 Developed by <strong>Madhav</strong></p>
   <p>📬 Feel free to reach out for questions or contributions!</p>
   <p>🚀 Happy Coding!</p>
 </div>
-</details>
+
