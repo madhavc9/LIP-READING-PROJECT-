@@ -7,6 +7,7 @@
   </p>
 </div>
 <hr>
+
 ## Project Overview
 
 The Lip Reading Project is an advanced AI-driven system designed to interpret spoken words solely from visual lip movements in video footage. It leverages deep learning models such as Conv3D for spatial feature extraction and LSTM for sequential analysis, enabling accurate prediction of words based on lip motion. The system processes both real-time and pre-recorded video inputs, making it a versatile tool for speech recognition without audio dependency.
