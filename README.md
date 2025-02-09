@@ -8,6 +8,7 @@
 </div>
 <hr>
 
+## 📑 Table of Contents  
 <details>
   <summary>📜 Table of Contents</summary>
 
@@ -15,10 +16,6 @@
 - [🎯 Features & Objectives](#-features--objectives)
 - [🛠️ Technologies Used](#-technologies-used)
 - [🏗️ Project Architecture](#-project-architecture)
-  - [📊 Data Collection & Preprocessing](#-data-collection--preprocessing)
-  - [🧠 Model Development](#-model-development)
-  - [📈 Training & Evaluation](#-training--evaluation)
-  - [🌐 Web Application (Streamlit)](#-web-application-streamlit)
 - [⚙️ Essential Installation Software](#️-essential-installation-software)
 - [🔍 Expected Output](#-expected-output)
 - [⚠️ Challenges Faced](#-challenges-faced)
@@ -61,40 +58,48 @@ Built with **OpenCV** for video processing and **Streamlit** for an interactive 
 <hr>
 
 ## 🏗️ Project Architecture  
-
 <details>
-  <summary>📊 Data Collection & Preprocessing</summary>
+  <summary>🏗️ Project Architecture</summary>
 
-- Downloaded video datasets with labeled speech.  
-- Extracted **frames from video** and converted them into grayscale images.  
-- Applied **lip detection and cropping** techniques to focus on the mouth region.  
-- Normalized image data and converted it into an array for model training.  
-</details>
+  <details>
+    <summary>📊 Data Collection & Preprocessing</summary>
 
-<details>
-  <summary>🧠 Model Development</summary>
+   - Downloaded video datasets with labeled speech.  
+   - Extracted **frames from video** and converted them into grayscale images.  
+   - Applied **lip detection and cropping** techniques to focus on the mouth region.  
+   - Normalized image data and converted it into an array for model training.  
 
-- **Conv3D Layers**: Extract spatial and temporal features from video frames.  
-- **MaxPooling Layers**: Reduce dimensionality for computational efficiency.  
-- **LSTM Layers**: Learn sequential patterns in lip movements.  
-- **Dense Layers**: Convert extracted features into text predictions.  
-- **CTC Loss Function**: Used for alignment-free speech recognition.  
-</details>
+  </details>
 
-<details>
-  <summary>📈 Training & Evaluation</summary>
+  <details>
+    <summary>🧠 Model Development</summary>
 
-- The model was trained on a dataset of lip movements and corresponding text transcripts.  
-- **Performance Metrics**: Accuracy, Precision, Recall, and WER (Word Error Rate).  
-- Data split into **80% training and 20% testing** for model validation.  
-</details>
+   - **Conv3D Layers**: Extract spatial and temporal features from video frames.  
+   - **MaxPooling Layers**: Reduce dimensionality for computational efficiency.  
+   - **LSTM Layers**: Learn sequential patterns in lip movements.  
+   - **Dense Layers**: Convert extracted features into text predictions.  
+   - **CTC Loss Function**: Used for alignment-free speech recognition.  
 
-<details>
-  <summary>🌐 Web Application (Streamlit)</summary>
+  </details>
 
-- Built an **interactive UI** where users can upload a video and receive real-time transcription.  
-- Used pre-trained models to predict text from uploaded videos.  
-- Displayed **frame-wise visualization** of lip movement predictions.  
+  <details>
+    <summary>📈 Training & Evaluation</summary>
+
+   - The model was trained on a dataset of lip movements and corresponding text transcripts.  
+   - **Performance Metrics**: Accuracy, Precision, Recall, and WER (Word Error Rate).  
+   - Data split into **80% training and 20% testing** for model validation.  
+
+  </details>
+
+  <details>
+    <summary>🌐 Web Application (Streamlit)</summary>
+
+   - Built an **interactive UI** where users can upload a video and receive real-time transcription.  
+   - Used pre-trained models to predict text from uploaded videos.  
+   - Displayed **frame-wise visualization** of lip movement predictions.  
+
+  </details>
+
 </details>
 <hr>
 
@@ -142,9 +147,11 @@ Ensure you have the following installed:
 </details>
 <hr>
 
+<details>
+  <summary>👨‍💻 Author</summary>
 <div align="center">
   <p>💡 Developed by <strong>Madhav</strong></p>
   <p>📬 Feel free to reach out for questions or contributions!</p>
   <p>🚀 Happy Coding!</p>
 </div>
-
+</details>
